@@ -3,10 +3,16 @@ import styled from "styled-components";
 export const NavbarSection = styled.div`
 /* border: green 2px solid; */
 height: 10vh;
-width: 55vw;
 display: flex;
-/* align-items: center; */
+background-color: #FFD6FF;
+`;
+
+export const NavbarBox = styled.div`
+display: flex;
+width: 55vw;
+height: 11vh;
 justify-content: center;
+/* border: red 5px solid; */
 `;
 
 export const NavbarNavigation = styled.div`
