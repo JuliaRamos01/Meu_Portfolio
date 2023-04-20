@@ -1,9 +1,13 @@
 import React from "react";
 import * as S from "./AboutStyle";
+import ImagemFundo from "../../images/fundoroxogrande.png";
 
 export default function About(){
     return(
         <S.AboutSection>
+            <S.AboutSectionImg>
+            <img src={ImagemFundo} alt="Fundo de estrelas"/>
+            </S.AboutSectionImg>
             <S.AboutText>
                 <h1>Quem sou eu?</h1>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, 

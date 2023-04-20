@@ -4,7 +4,7 @@ export const NavbarSection = styled.div`
 /* border: green 2px solid; */
 height: 10vh;
 display: flex;
-background-color: #FFD6FF;
+background-color: #ffe5ec;
 `;
 
 export const NavbarBox = styled.div`

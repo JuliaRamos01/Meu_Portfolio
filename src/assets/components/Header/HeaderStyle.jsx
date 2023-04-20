@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const HeaderSection = styled.header`
 height: 75vh;
 display: flex;
-background-color: #FFD6FF;
+background-color: #ffe5ec;
+/* background-color: #FFD6FF; */
 /* align-items: center; */
 /* border: green 2px solid; */
 `;
