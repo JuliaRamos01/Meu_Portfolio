@@ -6,7 +6,8 @@ align-items: center;
 justify-content: center;
 height: 60vh;
 /* border: red 3px solid; */
-background-color: #3A0057;
+background-color: #b26bcc;
+
 `;
 
 export const AboutText = styled.div`
@@ -15,7 +16,7 @@ flex-direction: column;
 text-align: center;
 height: 55vh;
 width: 50vw;
-border: white 2px solid;
+/* border: white 2px solid; */
 
 h1{
     font-family: 'Alfa Slab One', cursive;
