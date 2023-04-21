@@ -10,10 +10,11 @@ height: 75vh;
 `;
 
 export const AboutSectionImg = styled.div`
-display: flex;
 height: 75vh;
+width: 150vw;
 img{
-    width: 100vw;
+    width: 100%;
+    height: 75vh;
 }
 `;
 
@@ -22,14 +23,15 @@ display: flex;
 position: absolute;
 flex-direction: column;
 text-align: center;
-height: 60vh;
+height: 75vh;
 width: 50vw; 
-background-color: #ffe5ec;
-border-radius: 3rem;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-/* border: red 2px solid; */
+padding: 2rem;
+/* background-color: #1A1423; */
+/* background-color: #ffe5ec; */
+/* border: white 2px solid; */
 
 h1{
+    padding-bottom: 1.5rem;
     font-family: 'Alfa Slab One', cursive;
     color: #FDC500;
     font-weight: 100;
@@ -39,6 +41,7 @@ p{
     font-size: 1.2rem;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
-    color: #3A0057;
+    /* color: #3A0057; */
+    color: white;
 }
 `;

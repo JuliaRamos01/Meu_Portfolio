@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./AboutStyle";
-import ImagemFundo from "../../images/fundoroxogrande.png";
+import ImagemFundo from "../../images/fundoroxo2.png";
 
 export default function About(){
     return(

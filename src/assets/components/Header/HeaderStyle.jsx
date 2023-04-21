@@ -4,7 +4,7 @@ export const HeaderSection = styled.header`
 height: 75vh;
 display: flex;
 background-color: #ffe5ec;
-/* background-color: #FFD6FF; */
+/* background-color: #1A1423; */
 /* align-items: center; */
 /* border: green 2px solid; */
 `;
@@ -43,5 +43,6 @@ p{
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
     color: #3A0057;
+    /* color: white; */
 }
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./HeaderStyle";
-import ImageHeader from "../../images/FotoHeader3.png";
+import ImageHeader from "../../images/FotoHeader4.png";
 
 export default function Header(){
     return(

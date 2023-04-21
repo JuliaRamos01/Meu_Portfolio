@@ -8,20 +8,20 @@ export default function Skills() {
             <S.SkillImg>
                 <img src={UnicornioSkills} alt="Unicórnio com estrela" />
             </S.SkillImg>
-            <S.SkillsTitle>
-                    <h1>Habilidades</h1>
-            </S.SkillsTitle>
-            <S.SkillsButtons>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-                <button>Teste</button>
-            </S.SkillsButtons>
+            <S.SkillsHabilities>
+                <h1>Habilidades</h1>
+                <S.SkillsButtons>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                    <button>Teste</button>
+                </S.SkillsButtons>
+            </S.SkillsHabilities>
         </S.SkillsSection>
     );
 };
