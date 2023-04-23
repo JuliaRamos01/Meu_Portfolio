@@ -7,9 +7,9 @@ export default function Contact(){
         <S.ContactSection>
             <S.ContactText>
                 <h1>Contato</h1>
-                <button>E-mail</button>
-                <button>Linkedin</button>
-                <button>Github</button>
+                <S.ButtonEmail>E-mail</S.ButtonEmail>
+                <S.ButtonLinkedin>Linkedin</S.ButtonLinkedin>
+                <S.ButtonGithub>Github</S.ButtonGithub>
             </S.ContactText>
             <S.ContactImg>
                 <img src={UnicornioContato} alt="Unicórnio com o Laptop"/>

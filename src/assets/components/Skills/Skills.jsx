@@ -11,15 +11,15 @@ export default function Skills() {
             <S.SkillsHabilities>
                 <h1>Habilidades</h1>
                 <S.SkillsButtons>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
-                    <button>Teste</button>
+                    <S.ButtonHTML>HTML</S.ButtonHTML>
+                    <S.ButtonCSS>CSS</S.ButtonCSS>
+                    <S.ButtonJS>JavaScript</S.ButtonJS>
+                    <S.ButtonReact>React Js</S.ButtonReact>
+                    <S.ButtonBootstrap>Bootstrap</S.ButtonBootstrap>
+                    <S.ButtonFigma>Figma</S.ButtonFigma>
+                    <S.ButtonSaas>Saas</S.ButtonSaas>
+                    <S.ButtonStyledComp>Styled-Components</S.ButtonStyledComp>
+                    <S.ButtonGit>Git</S.ButtonGit>
                 </S.SkillsButtons>
             </S.SkillsHabilities>
         </S.SkillsSection>
