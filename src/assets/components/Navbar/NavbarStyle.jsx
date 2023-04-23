@@ -4,8 +4,7 @@ export const NavbarSection = styled.div`
 /* border: green 2px solid; */
 height: 10vh;
 display: flex;
-background-color: #ffe5ec;
-/* background-color: #1A1423; */
+background-color:#1A1423
 `;
 
 export const NavbarBox = styled.div`
@@ -13,16 +12,15 @@ display: flex;
 width: 55vw;
 height: 11vh;
 justify-content: center;
+position: fixed;
+z-index: 1;
 /* border: red 5px solid; */
 `;
 
 export const NavbarNavigation = styled.div`
-background: rgba( 58, 0, 87, 0.85 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 7.5px );
--webkit-backdrop-filter: blur( 7.5px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+background-color:#3A0057;
 border-top: none;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 border-bottom-left-radius: 2rem;
 border-bottom-right-radius: 2rem;
 height: 9vh;

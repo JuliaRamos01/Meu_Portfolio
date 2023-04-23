@@ -3,10 +3,7 @@ import styled from "styled-components";
 export const HeaderSection = styled.header`
 height: 75vh;
 display: flex;
-background-color: #ffe5ec;
-/* background-color: #1A1423; */
-/* align-items: center; */
-/* border: green 2px solid; */
+background-color:#1A1423;
 `;
 
 export const HeaderImage = styled.div`
@@ -42,7 +39,7 @@ p{
     /* border: purple 1px solid; */
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
-    color: #3A0057;
-    /* color: white; */
+    /* color: #3A0057; */
+    color: white;
 }
 `;

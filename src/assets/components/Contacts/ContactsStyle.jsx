@@ -4,7 +4,7 @@ export const ContactSection = styled.div`
 display: flex;
 justify-content: center;
 height: 65vh;
-background-color: #ffe5ec;
+background-color:#1A1423;
 /* border: blue 3px solid; */
 `;
 

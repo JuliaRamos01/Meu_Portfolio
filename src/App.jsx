@@ -5,11 +5,12 @@ import Header from "./assets/components/Header/Header";
 import About from "./assets/components/About/About";
 import Skills from "./assets/components/Skills/Skills";
 import Projects from "./assets/components/Projects/Projects";
-import Contact from "./assets/components/Contacts/Contacts";
+import Contacts from "./assets/components/Contacts/Contacts";
 import Footer from "./assets/components/Footer/Footer";
 
-export default function App() {
-  return (
+
+export default function App (){
+  return(
     <>
     <S.GlobalStyle/>
     <Navbar/>
@@ -17,7 +18,7 @@ export default function App() {
     <About/>
     <Skills/>
     <Projects/>
-    <Contact/>
+    <Contacts/>
     <Footer/>
     </>
   );

@@ -7,7 +7,7 @@ justify-content: space-evenly;
 flex-direction: column;
 height: 250vh;
 /* border: red 2px solid; */
-background-color: #ffe5ec;
+background-color:#1A1423;
 h1{
     font-family: 'Alfa Slab One', cursive;
     color: #FDC500;

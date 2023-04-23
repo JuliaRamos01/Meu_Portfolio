@@ -5,7 +5,7 @@ display: flex;
 height: 70vh;
 align-items: center;
 /* border: blue 2px solid; */
-background-color: #ffe5ec;
+background-color:#1A1423
 `;
 
 export const SkillImg = styled.div`
