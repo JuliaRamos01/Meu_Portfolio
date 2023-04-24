@@ -31,7 +31,7 @@ h1{
 	font-weight: 100;
     font-size: 3rem;
 	@media (min-width: 350px) and (max-width: 500px) {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 }
 /* border: green 2px solid; */
@@ -50,7 +50,7 @@ export const ButtonEmail = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -71,7 +71,7 @@ export const ButtonLinkedin = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -92,7 +92,7 @@ export const ButtonGithub = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -111,7 +111,7 @@ text-align: center;
 img{
     width: 35vw;
 	@media (min-width: 350px) and (max-width: 500px) {
-    width: 45vw;
+    width: 55vw;
 }
 }
 `;

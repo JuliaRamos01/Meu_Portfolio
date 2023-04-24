@@ -4,7 +4,7 @@ export const NavbarSection = styled.div`
 /* border: green 2px solid; */
 height: 10vh;
 display: flex;
-background-color:#1A1423
+background-color:#1A1423;
 `;
 
 export const NavbarBox = styled.div`
@@ -15,9 +15,10 @@ justify-content: center;
 position: fixed;
 z-index: 1;
 @media (min-width: 350px) and (max-width: 500px) {
-    width:100%
+    width:100%;
+    position: fixed;
     }
-/* border: red 5px solid; */
+/* border: red 1px solid; */
 `;
 
 export const NavbarNavigation = styled.div`
@@ -30,9 +31,9 @@ height: 9vh;
 width: 40vw;
 display: flex;
 @media (min-width: 350px) and (max-width: 500px) {
-    width:65vw;
+    width:70vw;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     }
 
 ul{
@@ -63,7 +64,7 @@ img{
     display: none;
     @media (min-width: 350px) and (max-width: 500px){
     display: flex;
-    height: 7vh;
+    height: 5vh;
     }
 }
 
@@ -74,7 +75,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     /* border: red 2px solid; */
     text-align: center;
     color: white;

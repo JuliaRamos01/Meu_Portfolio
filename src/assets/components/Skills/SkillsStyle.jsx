@@ -25,7 +25,7 @@ text-align: end;
 img{
     width: 35vw;
 	@media (min-width: 350px) and (max-width: 500px) {
-    width: 45vw;
+    width: 55vw;
 }
 }
 `;
@@ -50,7 +50,7 @@ h1{
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 	@media (min-width: 350px) and (max-width: 500px) {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 	padding-top: 0;
 }
 }
@@ -84,7 +84,7 @@ export const ButtonHTML = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -104,7 +104,7 @@ export const ButtonCSS = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -124,7 +124,7 @@ export const ButtonJS = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -144,7 +144,7 @@ export const ButtonReact = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 	:hover{
 		background-color: #03045e;
@@ -163,7 +163,7 @@ export const ButtonBootstrap = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -183,7 +183,7 @@ export const ButtonFigma = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -203,7 +203,7 @@ export const ButtonSaas = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -223,7 +223,7 @@ export const ButtonStyledComp = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -243,7 +243,7 @@ export const ButtonGit = styled.button`
 	font-weight:bold;
 	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 	:hover{
 		background-color:#fd9e02;

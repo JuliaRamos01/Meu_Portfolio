@@ -8,7 +8,7 @@ background-color:#1A1423;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
 }
 `;
 
@@ -27,8 +27,8 @@ img{
     width: 50vw;
     height: 100vh;
     @media (min-width: 350px) and (max-width: 500px) {
-    width: 80vw;
-    height: 60vh;
+    width: 120vw;
+    height: 70vh;
     }
 }
 `;
@@ -54,7 +54,7 @@ h1{
     font-size: 2.8rem;
     padding-bottom: 1rem;
     @media (min-width: 350px) and (max-width: 500px) {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     padding-bottom: 0.5rem;
 }
 }

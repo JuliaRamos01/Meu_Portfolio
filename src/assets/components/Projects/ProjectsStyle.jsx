@@ -50,12 +50,12 @@ backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 80vw;
+		width: 90vw;
 	}
 img{
 width: 35vw;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 65vw;
+		width: 75vw;
 	}
 }
 h2{
@@ -76,7 +76,7 @@ button{
 	text-decoration:none;
 	cursor: pointer;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -100,12 +100,12 @@ backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 80vw;
+		width: 90vw;
 	}
 img{
 width: 35vw;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 65vw;
+		width: 75vw;
 	}
 }
 h2{
@@ -126,7 +126,7 @@ button{
 	text-decoration:none;
 	cursor: pointer;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -162,12 +162,12 @@ backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 80vw;
+		width: 90vw;
 	}
 img{
 width: 35vw;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 65vw;
+		width: 75vw;
 	}
 }
 h2{
@@ -188,7 +188,7 @@ button{
 	text-decoration:none;
 	cursor: pointer;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -212,12 +212,12 @@ backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 80vw;
+		width: 90vw;
 	}
 img{
 width: 35vw;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 65vw;
+		width: 75vw;
 	}
 }
 h2{
@@ -238,7 +238,7 @@ button{
 	text-decoration:none;
 	cursor: pointer;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -274,12 +274,12 @@ backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 80vw;
+		width: 90vw;
 	}
 img{
 width: 35vw;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 65vw;
+		width: 75vw;
 	}
 }
 h2{
@@ -300,7 +300,7 @@ button{
 	text-decoration:none;
 	cursor: pointer;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
@@ -324,12 +324,12 @@ backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 80vw;
+		width: 90vw;
 	}
 img{
 width: 35vw;
 @media (min-width: 350px) and (max-width: 500px) {
-		width: 65vw;
+		width: 75vw;
 	}
 }
 h2{
@@ -350,7 +350,7 @@ button{
 	text-decoration:none;
 	cursor: pointer;
 	@media (min-width: 350px) and (max-width: 500px) {
-		width: 30vw;
+		width: 40vw;
 	}
 
 	:hover{
