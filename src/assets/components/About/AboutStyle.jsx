@@ -17,6 +17,7 @@ export const AboutSectionImg = styled.div`
 height: 75vh;
 width: 150vw;
 @media (min-width: 350px) and (max-width: 500px) {
+    width: 100%;
     height: 130vh;
     background-color:#3A0057;
 }

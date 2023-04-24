@@ -15,7 +15,7 @@ justify-content: center;
 position: fixed;
 z-index: 1;
 @media (min-width: 350px) and (max-width: 500px) {
-    width:100%;
+    width: 100%;
     position: fixed;
     }
 /* border: red 1px solid; */
