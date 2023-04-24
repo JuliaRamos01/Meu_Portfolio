@@ -25,7 +25,7 @@ flex-direction: column;
 text-align: center;
 height: 75vh;
 width: 50vw; 
-padding: 2rem;
+padding: 1.3rem;
 /* background-color: #1A1423; */
 /* background-color: #ffe5ec; */
 /* border: white 2px solid; */

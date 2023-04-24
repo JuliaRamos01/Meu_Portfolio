@@ -57,6 +57,7 @@ button{
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	cursor: pointer;
 
 	:hover{
 		background-color: #fd9e02;
@@ -97,6 +98,7 @@ button{
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	cursor: pointer;
 
 	:hover{
 		background-color: #fd9e02;
@@ -145,6 +147,7 @@ button{
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	cursor: pointer;
 
 	:hover{
 		background-color: #fd9e02;
@@ -185,6 +188,7 @@ button{
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	cursor: pointer;
 
 	:hover{
 		background-color: #fd9e02;
@@ -233,6 +237,7 @@ button{
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	cursor: pointer;
 
 	:hover{
 		background-color: #fd9e02;
@@ -273,6 +278,7 @@ button{
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	cursor: pointer;
 
 	:hover{
 		background-color: #fd9e02;

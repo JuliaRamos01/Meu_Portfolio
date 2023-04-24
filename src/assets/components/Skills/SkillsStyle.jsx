@@ -12,10 +12,9 @@ export const SkillImg = styled.div`
 height: 70vh;
 width: 45vw;
 /* border: green 3px solid; */
-text-align: center;
+text-align: end;
 img{
-	padding-top: 1rem;
-    width: 30vw;
+    width: 35vw;
 }
 `;
 

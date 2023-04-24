@@ -26,18 +26,19 @@ justify-content: center;
 height: 70vh;
 width: 50vw;
 text-align: center;
-padding: 1.1rem;
+padding: 1rem;
 /* border: magenta 1px solid; */
 h1{
     font-family: 'Alfa Slab One', cursive;
     color: #FDC500;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
 }
 p{
     font-size: 1.2rem;
     /* border: purple 1px solid; */
-    text-align: justify;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     /* color: #3A0057; */
     color: white;

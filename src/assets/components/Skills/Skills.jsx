@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./SkillsStyle";
-import UnicornioSkills from "../../images/unicornio1.png";
+import UnicornioSkills from "../../images/unicorniocomestrela2.png";
 
 export default function Skills() {
     return (

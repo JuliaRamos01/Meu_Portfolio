@@ -86,6 +86,6 @@ width: 50vw;
 text-align: center;
 /* border: grey 2px solid; */
 img{
-    width: 30vw;
+    width: 35vw;
 }
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./ContactsStyle";
-import UnicornioContato from "../../images/unicórnio2.png";
+import UnicornioContato from "../../images/unicorniocompc.png";
 
 export default function Contact(){
     return(
