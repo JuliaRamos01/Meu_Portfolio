@@ -14,6 +14,9 @@ height: 11vh;
 justify-content: center;
 position: fixed;
 z-index: 1;
+@media (min-width: 350px) and (max-width: 500px) {
+    width:100%
+    }
 /* border: red 5px solid; */
 `;
 
@@ -26,6 +29,9 @@ border-bottom-right-radius: 2rem;
 height: 9vh;
 width: 40vw;
 display: flex;
+@media (min-width: 350px) and (max-width: 500px) {
+    width:60vw
+    }
 
 ul{
     width:40vw;
@@ -33,6 +39,11 @@ ul{
     display: flex;
     align-items: center;
     font-family: 'Concert One', cursive;
+    @media (min-width: 350px) and (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    }
 }
 li{
     list-style: none;
@@ -41,6 +52,9 @@ li{
     color: white;
     :hover{
         color: #F9D402;
+    }
+    @media (min-width: 350px) and (max-width: 500px){
+    font-size: 0.9rem;
     }
 }
 `;

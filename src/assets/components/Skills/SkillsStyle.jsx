@@ -4,8 +4,12 @@ export const SkillsSection = styled.div`
 display: flex;
 height: 70vh;
 align-items: center;
-/* border: blue 2px solid; */
-background-color:#1A1423
+border: blue 2px solid;
+background-color:#1A1423;
+@media (min-width: 350px) and (max-width: 500px) {
+    flex-direction: column;
+	height: 150vh;
+}
 `;
 
 export const SkillImg = styled.div`
@@ -13,8 +17,14 @@ height: 70vh;
 width: 45vw;
 /* border: green 3px solid; */
 text-align: end;
+@media (min-width: 350px) and (max-width: 500px) {
+    height: 35vh;
+}
 img{
     width: 35vw;
+	@media (min-width: 350px) and (max-width: 500px) {
+    width: 45vw;
+}
 }
 `;
 
@@ -24,7 +34,11 @@ flex-direction: column;
 align-items: center;
 height: 70vh;
 width: 70vw;
-/* border: purple 2px solid; */
+border: purple 2px solid;
+@media (min-width: 350px) and (max-width: 500px) {
+    width: 80vw;
+	height: 110vh;
+}
 h1{
 	font-family: 'Alfa Slab One', cursive;
     text-align: center;
@@ -33,6 +47,10 @@ h1{
     font-size: 3rem;
 	padding-top: 2rem;
 	padding-bottom: 1rem;
+	@media (min-width: 350px) and (max-width: 500px) {
+    font-size: 2.5rem;
+	padding-top: 0;
+}
 }
 `;
 
@@ -42,7 +60,14 @@ grid-template-columns: 200px 200px 200px;
 align-items: center;
 height: 45vh;
 width: 40vw;
-/* border: blue 3px solid; */
+border: blue 3px solid;
+@media (min-width: 350px) and (max-width: 500px) {
+    width: 70vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
 `;
 
 export const ButtonHTML = styled.button`
