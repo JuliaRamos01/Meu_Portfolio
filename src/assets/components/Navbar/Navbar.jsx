@@ -11,10 +11,11 @@ export default function Navbar() {
                     <h1>Portifólio - Júlia Alves</h1>
                     <img src={Estrela} alt="Estrela"/>
                     <ul>
-                        <li>Início</li>
-                        <li>Sobre</li>
-                        <li>Projetos</li>
-                        <li>Contatos</li>
+                        <li><a href="#Header">Início</a></li>
+                        <li><a href="#About">Sobre</a></li>
+                        <li><a href="#Skills">Habilidades</a></li>
+                        <li><a href="#Projects">Projetos</a></li>
+                        <li><a href="#Contacts">Contatos</a></li>
                     </ul>
                 </S.NavbarNavigation>
             </S.NavbarBox>

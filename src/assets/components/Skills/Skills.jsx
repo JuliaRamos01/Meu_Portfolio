@@ -4,7 +4,7 @@ import UnicornioSkills from "../../images/unicorniocomestrela2.png";
 
 export default function Skills() {
     return (
-        <S.SkillsSection>
+        <S.SkillsSection id="Skills">
             <S.SkillImg>
                 <img src={UnicornioSkills} alt="Unicórnio com estrela" />
             </S.SkillImg>

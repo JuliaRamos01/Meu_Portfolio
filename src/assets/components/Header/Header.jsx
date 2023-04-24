@@ -4,7 +4,7 @@ import ImageHeader from "../../images/FotoHeader4.png";
 
 export default function Header(){
     return(
-        <S.HeaderSection>
+        <S.HeaderSection id="Header">
             <S.HeaderText>
                 <h1>Olá, eu sou a</h1>
                 <h1>Júlia Alves</h1>

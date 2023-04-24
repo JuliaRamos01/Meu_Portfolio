@@ -4,7 +4,7 @@ import UnicornioContato from "../../images/unicorniocompc.png";
 
 export default function Contact(){
     return(
-        <S.ContactSection>
+        <S.ContactSection id="Contacts">
             <S.ContactText>
                 <h1>Contato</h1>
                 <S.ButtonEmail>E-mail</S.ButtonEmail>

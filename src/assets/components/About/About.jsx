@@ -4,7 +4,7 @@ import ImagemFundo from "../../images/fundoroxo2.png";
 
 export default function About(){
     return(
-        <S.AboutSection>
+        <S.AboutSection id="About">
             <S.AboutSectionImg>
             <img src={ImagemFundo} alt="Fundo de estrelas"/>
             </S.AboutSectionImg>

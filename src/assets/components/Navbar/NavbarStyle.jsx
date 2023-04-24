@@ -28,8 +28,9 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 border-bottom-left-radius: 2rem;
 border-bottom-right-radius: 2rem;
 height: 9vh;
-width: 40vw;
+width: 45vw;
 display: flex;
+justify-content: center;
 @media (min-width: 350px) and (max-width: 500px) {
     width:70vw;
     align-items: center;
@@ -48,9 +49,14 @@ ul{
 }
 li{
     list-style: none;
+}
+
+a{
+    list-style: none;
     font-size: 1.2rem;
     cursor: pointer;
     color: white;
+    text-decoration: none;
     :hover{
         color: #F9D402;
     }
