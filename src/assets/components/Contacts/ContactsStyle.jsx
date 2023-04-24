@@ -6,6 +6,11 @@ justify-content: center;
 height: 65vh;
 background-color:#1A1423;
 /* border: blue 3px solid; */
+@media (min-width: 350px) and (max-width: 500px) {
+    flex-direction: column-reverse;
+	height: 85vh;
+	align-items: center;
+}
 `;
 
 export const ContactText = styled.div`
@@ -16,12 +21,18 @@ justify-content: space-evenly;
 height: 60vh;
 width: 50vw;
 text-align: center;
+@media (min-width: 350px) and (max-width: 500px) {
+		height: 50vh;
+	}
 h1{
 	font-family: 'Alfa Slab One', cursive;
     text-align: center;
 	color: #FDC500;
 	font-weight: 100;
     font-size: 3rem;
+	@media (min-width: 350px) and (max-width: 500px) {
+    font-size: 2.5rem;
+}
 }
 /* border: green 2px solid; */
 `;
@@ -38,6 +49,9 @@ export const ButtonEmail = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #f72585;
@@ -56,6 +70,9 @@ export const ButtonLinkedin = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #0a2472;
@@ -74,6 +91,9 @@ export const ButtonGithub = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #001233;
@@ -85,7 +105,13 @@ height: 60vh;
 width: 50vw;
 text-align: center;
 /* border: grey 2px solid; */
+@media (min-width: 350px) and (max-width: 500px) {
+    height: 30vh;
+}
 img{
     width: 35vw;
+	@media (min-width: 350px) and (max-width: 500px) {
+    width: 45vw;
+}
 }
 `;

@@ -21,6 +21,9 @@ width: 40vw;
 display: flex;
 align-items: center;
 justify-content: center;
+@media (min-width: 350px) and (max-width: 500px) {
+    width: 65vw;
+    }
 
 h1{
     list-style: none;
@@ -29,6 +32,9 @@ h1{
     color: white;
     font-family: 'Concert One', cursive;
     font-weight: 100;
+    @media (min-width: 350px) and (max-width: 500px) {
+    font-size: 1rem;
+    }
     :hover{
         color: #F9D402;
     }

@@ -8,11 +8,18 @@ flex-direction: column;
 height: 250vh;
 /* border: red 2px solid; */
 background-color:#1A1423;
+@media (min-width: 350px) and (max-width: 500px) {
+		flex-direction: column;
+		height: 480vh;
+	}
 h1{
     font-family: 'Alfa Slab One', cursive;
     color: #FDC500;
     font-weight: 100;
     font-size: 3rem;
+	@media (min-width: 350px) and (max-width: 500px) {
+		font-size:2.5rem;
+	}
 }
 `;
 
@@ -22,6 +29,10 @@ align-items: center;
 justify-content: space-evenly;
 width: 100%;
 /* border: blue 2px solid; */
+@media (min-width: 350px) and (max-width: 500px) {
+		flex-direction: column;
+		height: 160vh;
+	}
 `;
 
 export const ProjectsCardOne = styled.div`
@@ -38,8 +49,14 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 80vw;
+	}
 img{
 width: 35vw;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 65vw;
+	}
 }
 h2{
     font-size: 2rem;
@@ -58,6 +75,9 @@ button{
 	font-weight:bold;
 	text-decoration:none;
 	cursor: pointer;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #fd9e02;
@@ -79,8 +99,14 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 80vw;
+	}
 img{
 width: 35vw;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 65vw;
+	}
 }
 h2{
     font-size: 2rem;
@@ -99,6 +125,9 @@ button{
 	font-weight:bold;
 	text-decoration:none;
 	cursor: pointer;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #fd9e02;
@@ -112,6 +141,10 @@ align-items: center;
 justify-content: space-evenly;
 width: 100%;
 /* border: blue 2px solid; */
+@media (min-width: 350px) and (max-width: 500px) {
+		flex-direction: column;
+		height: 160vh;
+	}
 `;
 
 export const ProjectsCardThree = styled.div`
@@ -128,8 +161,14 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 80vw;
+	}
 img{
 width: 35vw;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 65vw;
+	}
 }
 h2{
     font-size: 2rem;
@@ -148,6 +187,9 @@ button{
 	font-weight:bold;
 	text-decoration:none;
 	cursor: pointer;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #fd9e02;
@@ -169,8 +211,14 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 80vw;
+	}
 img{
 width: 35vw;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 65vw;
+	}
 }
 h2{
     font-size: 2rem;
@@ -189,6 +237,9 @@ button{
 	font-weight:bold;
 	text-decoration:none;
 	cursor: pointer;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #fd9e02;
@@ -202,6 +253,10 @@ align-items: center;
 justify-content: space-evenly;
 width: 100%;
 /* border: blue 2px solid; */
+@media (min-width: 350px) and (max-width: 500px) {
+		flex-direction: column;
+		height: 160vh;
+	}
 `;
 
 export const ProjectsCardFive = styled.div`
@@ -218,8 +273,14 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 80vw;
+	}
 img{
 width: 35vw;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 65vw;
+	}
 }
 h2{
     font-size: 2rem;
@@ -238,6 +299,9 @@ button{
 	font-weight:bold;
 	text-decoration:none;
 	cursor: pointer;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #fd9e02;
@@ -259,8 +323,14 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5.5px );
 -webkit-backdrop-filter: blur( 5.5px );
 border-radius: 30px;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 80vw;
+	}
 img{
 width: 35vw;
+@media (min-width: 350px) and (max-width: 500px) {
+		width: 65vw;
+	}
 }
 h2{
     font-size: 2rem;
@@ -279,6 +349,9 @@ button{
 	font-weight:bold;
 	text-decoration:none;
 	cursor: pointer;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #fd9e02;

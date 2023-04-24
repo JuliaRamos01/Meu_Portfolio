@@ -4,11 +4,11 @@ export const SkillsSection = styled.div`
 display: flex;
 height: 70vh;
 align-items: center;
-border: blue 2px solid;
+/* border: blue 2px solid; */
 background-color:#1A1423;
 @media (min-width: 350px) and (max-width: 500px) {
     flex-direction: column;
-	height: 150vh;
+	height: 165vh;
 }
 `;
 
@@ -19,6 +19,8 @@ width: 45vw;
 text-align: end;
 @media (min-width: 350px) and (max-width: 500px) {
     height: 35vh;
+	width: 50vw;
+	text-align: center;
 }
 img{
     width: 35vw;
@@ -34,10 +36,10 @@ flex-direction: column;
 align-items: center;
 height: 70vh;
 width: 70vw;
-border: purple 2px solid;
+/* border: purple 2px solid; */
 @media (min-width: 350px) and (max-width: 500px) {
     width: 80vw;
-	height: 110vh;
+	height: 130vh;
 }
 h1{
 	font-family: 'Alfa Slab One', cursive;
@@ -60,10 +62,10 @@ grid-template-columns: 200px 200px 200px;
 align-items: center;
 height: 45vh;
 width: 40vw;
-border: blue 3px solid;
+/* border: blue 3px solid; */
 @media (min-width: 350px) and (max-width: 500px) {
     width: 70vw;
-	height: 100vh;
+	height: 110vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -81,6 +83,9 @@ export const ButtonHTML = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #e85d04;
@@ -98,6 +103,9 @@ export const ButtonCSS = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #023e8a;
@@ -115,6 +123,9 @@ export const ButtonJS = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #ffb703;
@@ -132,6 +143,9 @@ export const ButtonReact = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 	:hover{
 		background-color: #03045e;
 	}
@@ -148,6 +162,9 @@ export const ButtonBootstrap = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #7400b8;
@@ -165,6 +182,9 @@ export const ButtonFigma = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color:#d5896f;
@@ -182,6 +202,9 @@ export const ButtonSaas = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #d81159;
@@ -199,6 +222,9 @@ export const ButtonStyledComp = styled.button`
 	font-size:15px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 
 	:hover{
 		background-color: #003554;
@@ -216,6 +242,9 @@ export const ButtonGit = styled.button`
 	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
+	@media (min-width: 350px) and (max-width: 500px) {
+		width: 30vw;
+	}
 	:hover{
 		background-color:#fd9e02;
 	}
