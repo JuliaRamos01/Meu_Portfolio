@@ -14,7 +14,7 @@ export default function Projects() {
             <h1>Projetos</h1>
             <S.ProjectsCardsGradeOne>
                     <S.ProjectsCardOne>
-                        <h2>Portifólio Astronauta</h2>
+                        <h2>Portfólio Astronauta</h2>
                         <img src={astronauta}/>
                         <button>Visualizar</button>
                     </S.ProjectsCardOne>

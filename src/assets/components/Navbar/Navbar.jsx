@@ -8,7 +8,7 @@ export default function Navbar() {
             <S.NavbarBox>
                 <S.NavbarNavigation>
                     <img src={Estrela} alt="Estrela"/>
-                    <h1>Portifólio - Júlia Alves</h1>
+                    <h1>Portfólio - Júlia Alves</h1>
                     <img src={Estrela} alt="Estrela"/>
                     <ul>
                         <li><a href="#Header">Início</a></li>
