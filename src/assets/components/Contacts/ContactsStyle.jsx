@@ -37,7 +37,11 @@ h1{
 /* border: green 2px solid; */
 `;
 
-export const ButtonEmail = styled.button`
+export const ButtonEmail = styled.a`
+    a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
     font-family: 'Open Sans', sans-serif;
 	background-color:#3A0057;
 	border-radius:30px;
@@ -45,10 +49,10 @@ export const ButtonEmail = styled.button`
     width: 12vw;
     height: 10vh;
 	cursor:pointer;
+	text-decoration: none;
 	color:#ffffff;
 	font-size:20px;
 	font-weight:bold;
-	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
 		width: 40vw;
 	}
@@ -56,9 +60,14 @@ export const ButtonEmail = styled.button`
 	:hover{
 		background-color: #f72585;
 	}
+}
 `;
 
-export const ButtonLinkedin = styled.button`
+export const ButtonLinkedin = styled.a`
+    a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
     font-family: 'Open Sans', sans-serif;
 	background-color:#3A0057;
 	border-radius:30px;
@@ -66,10 +75,10 @@ export const ButtonLinkedin = styled.button`
     width: 12vw;
     height: 10vh;
 	cursor:pointer;
+	text-decoration: none;
 	color:#ffffff;
 	font-size:20px;
 	font-weight:bold;
-	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
 		width: 40vw;
 	}
@@ -77,9 +86,14 @@ export const ButtonLinkedin = styled.button`
 	:hover{
 		background-color: #0a2472;
 	}
+}
 `;
 
-export const ButtonGithub = styled.button`
+export const ButtonGithub = styled.a`
+	a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
     font-family: 'Open Sans', sans-serif;
 	background-color:#3A0057;
 	border-radius:30px;
@@ -87,16 +101,16 @@ export const ButtonGithub = styled.button`
     width: 12vw;
     height: 10vh;
 	cursor:pointer;
+	text-decoration: none;
 	color:#ffffff;
 	font-size:20px;
 	font-weight:bold;
-	text-decoration:none;
 	@media (min-width: 350px) and (max-width: 500px) {
 		width: 40vw;
 	}
-
 	:hover{
 		background-color: #001233;
+	}
 	}
 `;
 
